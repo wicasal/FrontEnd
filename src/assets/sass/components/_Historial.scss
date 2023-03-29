@@ -1,0 +1,55 @@
+.tabla-visitas {
+  .MuiPaper-root {
+    border-radius: 32px;
+  }
+}
+.MuiTable-root {
+  border-radius: 32px;
+}
+
+.MuiTableHead-root {
+  .MuiTableRow-root {
+    background: #212121 0% 0% no-repeat padding-box !important;
+    border: none;
+  }
+  .MuiTableCell-root {
+    padding: 30px 25px;
+    color: $amarillo !important;
+    font-weight: 600;
+    font-size: 1rem;
+    text-align: left;
+    border: none;
+  }
+}
+
+.MuiTableBody-root {
+  .MuiTableRow-root {
+    text-align: left;
+    background-color: $grisFondo;
+    border-bottom: 1px solid $grisTabla;
+  }
+
+  .MuiTableCell-root {
+    padding: 20px 25px;
+    color: $blanco;
+    border: none;
+    font-size: 1rem;
+  }
+}
+
+.MuiTableFooter-root {
+  .MuiTableRow-root {
+    text-align: left;
+    background-color: $grisFondo;
+    font-size: 0.85rem;
+    border-bottom: none;
+  }
+  .MuiTableCell-root {
+    color: $blanco;
+    border: none;
+    padding: 10px 25px !important;
+  }
+  .MuiTablePagination-menuItem {
+    color: black;
+  }
+}

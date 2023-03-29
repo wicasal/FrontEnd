@@ -1,0 +1,135 @@
+.bg-blanco {
+  background-color: #f6f6f6;
+  width: 90%;
+  color: black;
+  padding: 40px 40px;
+  border-radius: 6px;
+  .MuiPaper-root {
+    background-color: transparent !important;
+    &.MuiAccordion-root {
+      background-color: #ececec !important;
+      color: black !important;
+      border: 1px solid #b7b7b7;
+      box-shadow: none;
+      ul li::marker {
+        color: black;
+        content: "●";
+        font-size: 1rem;
+      }
+      ul li {
+        margin: 10px 5px;
+        padding-left:5px;
+      }
+    }
+    .MuiSvgIcon-root {
+      fill: black !important;
+    }
+  }
+}
+
+.border-top-gris {
+  border-top: 1px solid #e6e6e6;
+}
+
+.MuiAccordionSummary-content.Mui-expanded,
+.MuiAccordionSummary-content {
+  margin: 0px 0px !important;
+}
+
+.fold-corner-card {
+  background: -webkit-linear-gradient(225deg, transparent 50%, #c9ccd4 50%),
+    -webkit-linear-gradient(45deg, #f6f6f6, #f6f6f6),
+    -webkit-linear-gradient(135deg, #f6f6f6, #f6f6f6),
+    -webkit-linear-gradient(225deg, transparent 25px, #f6f6f6 10px);
+  background: -moz-linear-gradient(225deg, transparent 50%, #c9ccd4 50%),
+    -moz-linear-gradient(45deg, #f6f6f6, #f6f6f6),
+    -moz-linear-gradient(135deg, #f6f6f6, #f6f6f6),
+    -moz-linear-gradient(225deg, transparent 25px, #f6f6f6 10px);
+  background: -o-linear-gradient(225deg, transparent 50%, #c9ccd4 50%),
+    -o-linear-gradient(45deg, #f6f6f6, #f6f6f6),
+    -o-linear-gradient(135deg, #f6f6f6, #f6f6f6),
+    -o-linear-gradient(225deg, transparent 25px, #f6f6f6 10px);
+  background: linear-gradient(225deg, transparent 50%, #c9ccd4 50%),
+    linear-gradient(45deg, #f6f6f6, #f6f6f6),
+    linear-gradient(135deg, #f6f6f6, #f6f6f6),
+    linear-gradient(225deg, transparent 25px, #f6f6f6 10px);
+}
+
+.fold-corner-card {
+  -webkit-background-size: 35px 35px, 0 0, 0 0, 100% 100%;
+  -moz-background-size: 35px 35px, 0 0, 0 0, 100% 100%;
+  background-size: 35px 35px, 0 0, 0 0, 100% 100%;
+  background-position: 100% 0, 0 0, 100% 100%, 100% 0;
+  background-repeat: no-repeat;
+}
+
+.MuiButton-root.btn-descargar-pdf {
+  background-color: $amarillo;
+  border-radius: 30px;
+  width: 150px;
+  padding: 5px 20px;
+  height: 40px;
+  color: black;
+  font-weight: bold;
+  text-transform: none;
+  text-align: center;
+  &:hover {
+    background-color: $amarillo;
+  }
+}
+
+.itemCarrousel {
+  width: 300px;
+  height: 200px;
+  background-color: rgba(0, 0, 0, 0.2);
+  // border: 1px solid $amarillo;
+}
+
+.alice-carousel__dots-item {
+  background-color: #e7e7e7 !important;
+}
+
+.alice-carousel__dots-item.__active {
+  background-color: $amarillo !important;
+}
+
+.alice-carousel__wrapper {
+  padding-left: 26px !important;
+}
+
+.img-marca-resumen {
+  width: 300px;
+  height: 200px;
+}
+
+.puntaje-resumen-pilar {
+  text-align: right;
+  svg {
+    width: 70%;
+  }
+
+  .verde svg {
+    fill: $verde_puntaje;
+  }
+
+  .rojo svg {
+    fill: $rojo_puntaje;
+  }
+
+  .naranja svg {
+    fill: $naranja_puntaje;
+  }
+
+  .azul svg {
+    fill: $azul_puntaje;
+  }
+}
+
+.numero-puntaje-resumen-pilar {
+  color: #ffffff;
+  font-size: 23px;
+  position: relative;
+  top: -1%;
+  font-weight: bold;
+  left: 56%;
+}

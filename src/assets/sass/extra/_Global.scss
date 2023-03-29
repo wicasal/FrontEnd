@@ -1,0 +1,205 @@
+.m-auto {
+  margin: 0 auto;
+}
+
+.MuiCircularProgress-root {
+  color: $amarillo !important;
+}
+
+.texto-blanco {
+  color: $blanco;
+}
+
+.texto-amarillo {
+  color: $amarillo;
+}
+
+ul {
+  padding-left: 15px;
+  li::marker {
+    color: $amarillo;
+    content: "\25CF";
+    font-size: 1.5rem;
+  }
+}
+
+.MuiRadio-root {
+  font-size: 1.2rem;
+  & .MuiSvgIcon-root {
+    font-size: 32px;
+  }
+}
+//Clase para controlar que el cuerpo de la pagina no choque con al navbar
+.padding-box-nav-bar {
+  padding-bottom: 100px !important;
+}
+
+.MuiTextField-root {
+  width: 100%;
+  .MuiOutlinedInput-root {
+    background: $grisCampos 0% 0% no-repeat padding-box;
+    border: 1px solid #949494;
+    border-radius: 5px;
+    opacity: 1;
+    color: #fff;
+    &::placeholder {
+      color: #ffffff !important;
+    }
+  }
+}
+
+.inputFill {
+  width: 100%;
+  background: $grisCampos 0% 0% no-repeat padding-box !important;
+  border: 1px solid #949494 !important;
+  border-radius: 5px !important;
+  opacity: 1 !important;
+  position: sticky !important;
+  .MuiInputLabel-root,
+  .MuiSelect-select,
+  .Mui-disabled,
+  input,
+  svg {
+    color: #fff !important;
+    -webkit-text-fill-color: rgba(255, 255, 255, 1) !important;
+  }
+  &::placeholder {
+    color: #ffffff !important;
+  }
+}
+
+.MuiFilledInput-root:before {
+  border-bottom: none !important;
+}
+
+.MuiContainer-root {
+  @media (min-width: 600px) {
+    padding-left: 48px !important;
+    padding-right: 48px !important;
+  }
+}
+
+.MuiButton-root {
+  &.btn {
+    background-color: $amarillo !important;
+    background: $amarillo 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    opacity: 1;
+    text-align: center;
+    min-width: 0px;
+  }
+  &.Mui-disabled {
+    background-color: $disabled !important;
+  }
+}
+
+.MuiTypography-root {
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.MuiPaper-root {
+  background-color: $grisCampos !important;
+  &.MuiAccordion-root {
+    background-color: #333333 !important;
+  }
+  .MuiSvgIcon-root {
+    fill: white !important;
+  }
+  color: $blanco !important;
+  .MuiListSubheader-root {
+    background-color: $grisCampos !important;
+    font-weight: bold;
+    color: $amarillo !important;
+    font-size: 1.1rem;
+  }
+  .MuiButton-root,
+  .MuiCalendarPicker-root span {
+    color: $amarillo !important;
+  }
+  &.MuiAlert-standardError {
+    background-color: rgb(253, 237, 237) !important;
+    color: rgb(95, 33, 32) !important;
+  }
+  &.MuiAlert-standardWarning {
+    background-color: rgb(255, 244, 229) !important;
+    color: rgb(102, 60, 0) !important;
+  }
+}
+
+.MuiButtonBase-root.MuiPickersDay-root.Mui-selected,
+.MuiButtonBase-root.MuiPickersDay-root:hover {
+  background-color: $amarillo !important;
+  color: $gris !important;
+  font-weight: bold;
+}
+
+.MuiPickersDay-today {
+  border: 1px solid $amarillo !important;
+  color: $amarillo !important;
+}
+
+.MuiModal-root {
+  display: flex;
+  justify-content: center;
+}
+
+.PrivatePickersToolbar-root span {
+  color: $amarillo !important;
+}
+
+.d-inline {
+  display: inline !important;
+}
+
+.ml-3 {
+  margin-left: 5%;
+}
+
+.body-white {
+  background-color: $blanco;
+}
+
+.h-100vh {
+  height: 100vh;
+}
+
+.direction-row {
+  flex-direction: row !important;
+}
+
+.text-align-left {
+  text-align: left;
+}
+
+.btn-regresar {
+  display: flex;
+  align-items: center;
+  font-size: 12px !important;
+  svg {
+    width: 18px;
+    cursor: pointer;
+  }
+  span {
+    padding-top: 2px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: $blanco !important;
+  }
+}
+
+.vh100 {
+  height: 100vh;
+}
+
+b {
+  font-weight: bold !important;
+}
+
+a {
+  text-decoration: none !important;
+}

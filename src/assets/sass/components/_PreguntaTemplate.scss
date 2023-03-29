@@ -1,0 +1,50 @@
+.pilar-radio {
+  margin-right: 40px !important;
+  span.MuiTypography-root {
+    font-size: 1rem !important;
+    font-weight: 600 !important;
+    color: $amarillo;
+  }
+  span.MuiRadio-root {
+    color: $blanco;
+    &.Mui-checked {
+      color: $amarillo;
+    }
+  }
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.custom-file-upload {
+  display: inline-block;
+  padding: 2% 12px;
+  cursor: pointer;
+  border-right: 1px solid #ededed;
+}
+
+.file-preview {
+  margin: 10px 10px;
+  cursor: pointer;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .nombre-archivo {
+    width: 100%;
+    justify-content: flex-start;
+  }
+}
+
+#imagenPrevisualizacion {
+  width: 80px;
+  height: 60px;
+  box-shadow: inset;
+}
+
+.error-msg {
+  font-weight: 600!important;
+  color: red;
+}
+

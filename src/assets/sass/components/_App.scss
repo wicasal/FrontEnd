@@ -1,0 +1,24 @@
+// html {
+//   height: 100%;
+// }
+
+#root {
+	height: 91%;
+}
+
+body {
+	margin: 0;
+	// height: 100%;
+  font-family: "Montserrat", sans-serif!important;
+  background: transparent
+    radial-gradient(closest-side at 50% 50%, #4d4d4d 0%, #1a1a1a 100%) 0% 0%
+    no-repeat padding-box;
+}
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+.App {
+	background: transparent
+		radial-gradient(closest-side at 50% 50%, #4d4d4d 0%, #1a1a1a 100%) 0% 0%
+		no-repeat padding-box;
+	min-height: 100vh;
+}

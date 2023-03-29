@@ -1,0 +1,23 @@
+.modal-finalizar-gestion {
+  border-radius: 10px;
+  width: 400px;
+  height: 180px;
+  // background: transparent;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  padding: 25px 40px;
+  position: absolute;
+  top: 15%;
+  border: 1px solid white;
+  .btn-continuar {
+    background: #ffc424 0% 0% no-repeat padding-box;
+    border-radius: 30px;
+    opacity: 1;
+    color: black;
+    font-weight: bold;
+    width: 153px;
+    height: 41px;
+    &:hover {
+      background: #ffc424 0% 0% no-repeat padding-box;
+    }
+  }
+}

@@ -1,0 +1,87 @@
+.contenedor-button {
+  .svg-casa {
+    margin-right: 12px;
+  }
+  .btn-transparent {
+    font-size: 16px;
+    background: transparent;
+    text-transform: none;
+    color: white;
+    font-weight: bold;
+    padding: 8px 20px;
+    border-radius: 50px;
+  }
+
+  .btn-transparent:hover {
+    background: none;
+  }
+
+  .visit {
+    width: 320px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    svg {
+      margin-bottom: 5px;
+    }
+  }
+}
+
+.container-gray {
+  background-color: #535353;
+  height: 230px;
+}
+
+@media (min-width: 768px) {
+  .container-gray {
+    height: 180px;
+  }
+}
+
+.MuiInputBase-input.MuiOutlinedInput-input.Mui-disabled {
+  -webkit-text-fill-color: white !important;
+}
+.title-contenedor {
+  margin: 0 0 10px 10px;
+}
+
+.btn-checklist-tienda {
+  width: 50px;
+  height: 50px;
+  color: $blanco !important;
+  font-weight: bold !important;
+  font-size: 1.1rem !important;
+}
+
+.btn-buscar-encargado {
+  width: 65px;
+  height: 58px;
+  color: $blanco !important;
+  font-weight: bold !important;
+  font-size: 1.5rem !important;
+  background-color: $amarillo !important;
+}
+
+.check-badge-gestion {
+  margin: 0px 10px !important;
+}
+
+.encargado-radio {
+  margin-right: 20px !important;
+  span.MuiTypography-root {
+    font-size: 1rem !important;
+    font-weight: 600 !important;
+    color: $amarillo;
+  }
+  span.MuiRadio-root {
+    color: $blanco;
+    &.Mui-checked {
+      color: $amarillo;
+    }
+  }
+}
+
+.border-bot-gris{
+  border-bottom: 1px solid rgb(83, 83, 83, 0.3);
+}

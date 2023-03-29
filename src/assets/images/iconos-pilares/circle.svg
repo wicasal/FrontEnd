@@ -1,0 +1,23 @@
+<svg
+                  className="svg-valor"
+                  data-name="Grupo 28790"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 68.786 68.786"
+                >
+                  <circle
+                    className="circle-success"
+                    data-name="Elipse 1006"
+                    cx="34.393"
+                    cy="34.393"
+                    r="34.393"
+                    transform="translate(0 0)"
+                  />
+                  <g data-name="Grupo 28789" transform="translate(2.175 2.175)">
+                    <path
+                      data-name="Trazado 48466"
+                      d="M3852.617,880.017a32.218,32.218,0,1,0,32.218,32.218A32.218,32.218,0,0,0,3852.617,880.017Zm-.094,63.374a31.157,31.157,0,1,1,31.156-31.156A31.157,31.157,0,0,1,3852.523,943.391Z"
+                      transform="translate(-3820.399 -880.017)"
+                      fill="#f6f6f6"
+                    />
+                  </g>
+                </svg>

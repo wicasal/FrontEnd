@@ -1,0 +1,83 @@
+.img-tienda {
+  border-radius: 20px;
+  height: 240px;
+  width: 100%;
+  img {
+    height: 250px;
+    width: 480px;
+    border-radius: 20px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .img-tienda {
+    img {
+      height: 240px;
+      width: 410px;
+      border-radius: 20px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .img-tienda {
+    img {
+      height: 90%;
+      width: 100%;
+      border-radius: 20px;
+    }
+  }
+}
+
+.pais-proxima-ruta {
+  display: flex;
+  align-items: center;
+  span {
+    margin-left: 20px;
+  }
+}
+
+.caja-mapa-tactico-proxima-ruta {
+  background: $gris 0% 0% no-repeat padding-box;
+  border-radius: 20px;
+  opacity: 1;
+  padding: 20px;
+}
+
+.expandir-btn-proxima-ruta {
+  height: 25px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: right;
+  padding: 0 10px 10px 0;
+  .expandir-icon {
+    cursor: pointer;
+  }
+  a {
+    color: white !important;
+  }
+}
+
+.btn-proxima-ruta {
+  width: 50px;
+  height: 50px;
+  margin: 0 auto !important;
+  color: $blanco !important;
+  font-weight: bold !important;
+  font-size: 1rem !important;
+}
+
+.check-badge-proxima-ruta {
+  margin: 0 auto !important;
+  & span svg {
+    width: 15px;
+    height: 15px;
+  }
+}
+
+.loader{
+  display:flex;
+  justify-content: center;
+  align-content: center;
+  height:100vh;
+}

@@ -1,0 +1,72 @@
+.padding-top-pilar {
+  padding-top: 35.5%;
+}
+
+.padding-top-proxima-ruta {
+  padding-top: 50.5%;
+}
+
+.iframe-container-preview {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+//   padding-top: 35.5%;
+  //   margin-top: -10%;
+  iframe,
+  .spiner-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .spiner-iframe {
+    background-color: #272727;
+    display: flex;
+    justify-content: center;
+    text-align: center !important;
+    align-items: center;
+  }
+}
+
+.expandir-btn-pilar {
+  height: 20px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: right;
+  background-color: #202124;
+  padding: 0 10px 10px 0;
+  margin-top: -27px;
+  position: absolute;
+  .expandir-icon {
+    cursor: pointer;
+  }
+  a {
+    color: white !important;
+  }
+}
+
+// Proxima ruta
+.expandir-btn-proxima-ruta {
+  height: 25px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: right;
+  padding: 0 10px 10px 0;
+  .expandir-icon {
+    cursor: pointer;
+  }
+  a {
+    color: white !important;
+  }
+}
+
+.margin-top-negativo {
+  margin-top: -10%;
+}
+
+iframe{
+  overflow: hidden!important;
+}

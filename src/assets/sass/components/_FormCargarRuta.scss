@@ -1,0 +1,55 @@
+.modal-cargar-ruta {
+  .inputFill {
+    width: 100%;
+    height: 80px;
+    background: white 0% 0% no-repeat padding-box !important;
+    border: 1px solid #949494 !important;
+    border-radius: 5px !important;
+    opacity: 1 !important;
+    position: sticky !important;
+    .MuiInputLabel-root,
+    .MuiSelect-select,
+    .Mui-disabled,
+    input,
+    svg {
+      color: $grisCampos !important;
+      -webkit-text-fill-color: rgba(255, 255, 255, 1) !important;
+    }
+    &::placeholder {
+      color: $grisCampos !important;
+    }
+  }
+
+  .custom-file-upload {
+    display: inline-block;
+    padding: 3.5% 12px;
+    cursor: pointer;
+    border-right: 1px solid $grisCampos;
+    background-color: #e8ecee;
+  }
+}
+
+.modal-finalizar-subir-archivo {
+  border-radius: 10px;
+  width: 400px;
+  height: 270px;
+  // background: transparent;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  padding: 25px 40px;
+  position: absolute;
+  top: 30%;
+  border: 1px solid white;
+  .btn-continuar {
+    background: #ffc424 0% 0% no-repeat padding-box;
+    border-radius: 30px;
+    opacity: 1;
+    color: black;
+    font-weight: bold;
+    width: 153px;
+    height: 41px;
+    &:hover {
+      background: #ffc424 0% 0% no-repeat padding-box;
+    }
+  }
+}
+

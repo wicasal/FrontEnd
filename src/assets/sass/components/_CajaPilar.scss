@@ -1,0 +1,144 @@
+.contenedor-view {
+  display: flex;
+  flex-direction: row !important;
+  background: transparent;
+  height: 140px;
+  align-items: center;
+  padding: 0 40px;
+  margin: 0 0 30px 0;
+  background-blend-mode: saturation;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  &.left {
+    justify-content: space-between;
+    border-radius: 0 30px 30px 0;
+    .order-0 {
+      order: 0;
+    }
+
+    .order-1 {
+      order: 1;
+    }
+  }
+  &.right {
+    justify-content: space-between;
+    border-radius: 0 30px 30px 0;
+    .order-0 {
+      order: 0;
+    }
+
+    .order-1 {
+      order: 1;
+    }
+  }
+  .d-none {
+    display: none !important;
+  }
+  .mr-3 {
+    margin-right: 5%;
+  }
+
+  .align-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .svg-valor {
+    width: 68px;
+    height: 68px;
+  }
+
+  .position-relative {
+    position: relative;
+    h5 {
+      color: white;
+      font-size: 24px;
+      position: absolute;
+      margin: 0;
+      text-align: center;
+    }
+    .points {
+      margin: 10px 0 0 0;
+      color: white;
+      font-weight: 600;
+    }
+  }
+  &.completado {
+    background-color: rgba(0, 0, 0, 0.7) !important;
+    .puntaje {
+      display: inline-block !important;
+    }
+  }
+  & .puntaje {
+    display: none !important;
+  }
+
+  .btn-primary {
+    background: #fcbc1d;
+    border-radius: 30px;
+    width: 65%;
+    padding: 14px 20px;
+    height: 60px;
+    color: black;
+    font-weight: bold;
+    text-transform: none;
+    text-align: center;
+    &:hover {
+      background: #fcbc1d;
+    }
+  }
+}
+
+.puntaje-pilar {
+  svg {
+    width: 40%;
+  }
+
+  .verde svg {
+    fill: $verde_puntaje;
+  }
+
+  .rojo svg {
+    fill: $rojo_puntaje;
+  }
+
+  .naranja svg {
+    fill: $naranja_puntaje;
+  }
+
+  .azul svg {
+    fill: $azul_puntaje;
+  }
+
+  span {
+    text-align: center;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
+    font-size: 28px;
+    position: absolute;
+    top: 18%;
+    font-weight: bold;
+    left: 0%;
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .contenedor-view.right {
+    border-radius: 30px 0 0 30px;
+    .order-0 {
+      order: 1;
+    }
+
+    .order-1 {
+      order: 0;
+    }
+  }
+}
+
+.MuiSvgIcon-root.icono-pilar path {
+  // filter: invert(69%) sepia(99%) saturate(450%) hue-rotate(343deg) brightness(103%) contrast(98%);
+  fill: $amarillo !important;
+}

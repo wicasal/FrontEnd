@@ -1,0 +1,43 @@
+.center-content {
+  text-align: center;
+  .logotipo {
+    height: 100%;
+    width: 161px;
+  }
+  .PilarTitle {
+    margin-top: 5%;
+    color: $amarillo;
+  }
+}
+
+.contenedor-button.calendario {
+  min-height: 20vh;
+}
+
+.contenedor-button {
+  /* Boton principal */
+  .btn-primary {
+    font-size: 16px;
+    background: $amarillo;
+    text-transform: none;
+    color: black;
+    font-weight: bold;
+    padding: 20px 0px;
+    border-radius: 40px;
+    width: 240px;
+  }
+
+  .btn-primary:hover {
+    background-color: white;
+    color: black;
+  }
+}
+
+.d-flex {
+  display: flex !important;
+}
+
+.align-center {
+  align-items: center;
+  justify-content: center;
+}

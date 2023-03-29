@@ -1,0 +1,67 @@
+// Clases de PILAR
+
+iframe body {
+  overflow: hidden;
+}
+
+.iframe-container-preview-pilar {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 35.5%;
+  margin-top: -10%;
+  iframe,
+  .spiner-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .spiner-iframe {
+    background-color: #272727;
+    display: flex;
+    justify-content: center;
+    text-align: center !important;
+    align-items: center;
+    // border:1px solid red;
+  }
+}
+
+.expandir-btn-pilar {
+  height: 20px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: right;
+  background-color: #202124;
+  padding: 0 10px 10px 0;
+  margin-top: -27px;
+  position: absolute;
+  .expandir-icon {
+    cursor: pointer;
+  }
+  a {
+    color: white !important;
+  }
+}
+
+.titulo-template-indicadores {
+  justify-content: end;
+  letter-spacing: 0px;
+  text-align: right;
+  h4 {
+    color: $amarillo;
+    opacity: 1;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+}
+
+.bg-gris {
+  background: #424242 0% 0% no-repeat padding-box;
+  border-radius: 100px 100px 0px 0px;
+  opacity: 1;
+}
+
